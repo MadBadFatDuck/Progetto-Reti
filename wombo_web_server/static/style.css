@@ -1,0 +1,120 @@
+/* Reset base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font e corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+    height: 100vh;
+    background: url("img/bkg_main.png") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.overlay p {
+    font-size: 20px;
+}
+
+/* Titolo pagina interna */
+.page-title {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+    font-size: 36px;
+}
+
+/* Righe combo */
+.combo-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+    width: 100%;
+}
+
+.combo-row img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.combo-desc {
+    flex: 1;
+    color: #111;
+}
+
+.combo-desc h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.combo-desc p {
+    font-size: 18px;
+}
+
+/* Righe colorate a tutta larghezza */
+.row-1 {
+    background-color: #e1f5fe; /* azzurro */
+}
+
+.row-2 {
+    background-color: #fce4ec; /* rosa chiaro */
+    flex-direction: row-reverse;
+}
+
+.row-3 {
+    background-color: #f3e5f5; /* lilla */
+}
