@@ -22,10 +22,21 @@ header {
     padding: 20px 40px;
 }
 
-.logo {
+.logo a {
     font-size: 28px;
     font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
+
+.logo a:visited {
+    color: white;
+}
+
+.logo a:hover {
+    text-decoration: underline;
+}
+
 
 .nav-links a {
     color: white;
@@ -107,14 +118,14 @@ header {
 
 /* Righe colorate a tutta larghezza */
 .row-1 {
-    background-color: #e1f5fe; /* azzurro */
+    background-color: #b4e7ff; /* azzurro */
 }
 
 .row-2 {
-    background-color: #fce4ec; /* rosa chiaro */
+    background-color: #ffb9cf; /* rosa chiaro */
     flex-direction: row-reverse;
 }
 
 .row-3 {
-    background-color: #f3e5f5; /* lilla */
+    background-color: #fff7a0; /* lilla */
 }
