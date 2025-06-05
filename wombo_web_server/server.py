@@ -2,7 +2,7 @@ import socket
 import os
 
 HOST, PORT = '127.0.0.1', 8080
-BASE_DIR = './static'
+BASE_DIR = './www'
 
 MIME_TYPES = {
     '.html': 'text/html',
