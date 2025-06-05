@@ -1,6 +1,5 @@
 # Web Server Wombo Combo
 
-Un semplice web server in Python che serve un sito statico ispirato alle Wombo Combo di drink.
 
 ## Avvio del server
 
@@ -8,4 +7,4 @@ Un semplice web server in Python che serve un sito statico ispirato alle Wombo C
 python3 server.py
 ```
 
-Apri [http://localhost:8080](http://localhost:8080) nel browser per visualizzare la home.
+[http://localhost:8080](http://localhost:8080)

@@ -35,7 +35,7 @@ def handle_request(client_socket):
         content_type = get_mime_type(file_path)
         response = f"HTTP/1.1 200 OK\r\nContent-Type: {content_type}\r\n\r\n".encode('utf-8') + content
     except FileNotFoundError:
-        response = b"HTTP/1.1 404 Not Found\r\n\r\n<h1>404 Not Found</h1>"
+        response = b"HTTP/1.1 404 Not Found\r\n\r\n404 Not Found"
 
     client_socket.sendall(response)
     client_socket.close()
